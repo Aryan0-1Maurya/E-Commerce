@@ -1,0 +1,22 @@
+.top-selling .mySwiper .swiper-button-prev, .top-selling .mySwiper .swiper-button-next {
+  height: 100%;
+  top: 11px;
+  right: 0;
+  color: #fcb941;
+  padding: 0 16px;
+}
+
+.top-selling .MuiTabs-flexContainer {
+  display: block;
+}
+
+.css-jpln7h-MuiTabs-scroller {
+  display: block;
+  width: auto;
+  overflow: auto !important;
+}
+
+.css-jpln7h-MuiTabs-scroller::-webkit-scrollbar {
+  overflow: hidden;
+  display: none;
+}

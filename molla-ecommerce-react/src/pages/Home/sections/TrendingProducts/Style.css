@@ -1,0 +1,52 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.trending-products .mySwiper .swiper-button-prev, .trending-products .mySwiper .swiper-button-next {
+  height: 100%;
+  top: 11px;
+  right: 0;
+  color: #fcb941;
+  padding: 0 16px;
+}
+
+.mySwiper .swiper-button-disabled {
+  transition: opacity .3s ease-in-out;
+  opacity: 0 !important;
+}
+
+.trending-products .MuiTabs-flexContainer {
+  display: block;
+}
+
+.css-jpln7h-MuiTabs-scroller {
+  display: block;
+  width: auto;
+  overflow: auto !important;
+}
+
+.css-jpln7h-MuiTabs-scroller::-webkit-scrollbar {
+  overflow: hidden;
+  display: none;
+}
